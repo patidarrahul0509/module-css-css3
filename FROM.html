@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOGLE FROM</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            height: 115vh;
+            background-color: skyblue;
+            margin: 5% auto;
+            flex-wrap: wrap;
+        }
+        header h2 {
+            padding: 2% 12%;
+            font-size: 28px;
+        }
+        .main {
+            font-family: Arial, Helvetica, sans-serif;
+            width: 80%;
+            background-color: rgb(251, 251, 252);
+            display: flex;
+            justify-content: space-between;
+            padding: 2%;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+        .main .add {
+            width: 33.33%;
+            font-size: 18px;
+            padding-right: 2%;
+        }
+        .main .mail {
+            width: 33.33%;
+        }
+        .main .logo{
+            width: 33.33%;
+            padding-left: 15%;
+        }
+        .icon {
+            width: 30%;
+            color: rgb(207, 47, 47);
+            font-size: 30px;
+            padding-top: 25px;
+        }
+        .phon {
+            color: rgb(207, 47, 47);
+            font-size: 18px;
+            padding-top: 25px;
+        }
+        .gmail {
+            color: rgb(88, 154, 180);
+            padding-top: 5px;
+            font-size: 18px;
+        }
+        .content {
+            width: 80%;
+            background-color: rgb(251, 251, 252);
+            margin: 2% auto;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            flex-wrap: wrap;
+        }
+        .content .left-con{
+            width: 48%;
+        }
+        .content .left-con input{
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .content .right-con{
+            width: 48%;
+            padding: 20px;
+        }
+        .content .right-con iframe{
+            width: 100%;
+            height: 350px;
+        }
+        .add {
+            padding: 13px 10px;
+        }
+        #i1 {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        } 
+        .btn a {
+            width: fit-content;
+            background-color: rgb(207, 47, 47);
+            padding: 10px 18px;
+            text-decoration: none;
+            color: aliceblue;
+            border-radius: 7px;
+            margin-right: 20vw;
+            margin-top: 15px;
+        }
+        .ir {
+            font-size: 30px;
+            padding-top: 2%;
+        }
+        .icn {
+            background-color: rgb(94, 94, 226);
+            color: aliceblue;
+            font-size: 20px;
+            padding: 7px 13px;
+        }
+        .icn1 {
+            background-color: rgb(117, 218, 218);
+            color: aliceblue;
+            font-size: 20px;
+            padding: 7px;
+        }
+
+        .icn2 {
+            background-color: rgb(24, 149, 190);
+            color: aliceblue;
+            font-size: 20px;
+            padding: 7px;
+        }
+        .icn3 {
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            padding: 7px;
+        } 
+        iframe{
+            width: 100%;
+             height:100px;
+        }
+        @media screen and (max-width: 700px) {
+            header {
+                width: 100%;
+                flex-direction: column;
+            }
+            .container{
+                width: 100%;
+                flex-direction: column;
+            }
+            .main{
+                width: 100%;
+                flex-direction: column;
+            }
+            .main .add{
+                width: 100%;
+                flex-direction: column;
+
+            } .main .main{
+                width: 100%;
+                flex-direction: column;
+            }
+             .main .logo{
+                width: 100%;
+                flex-direction: column;
+            }
+            .content{
+                width: 100%;
+                flex-direction: column;
+            }
+            .container .left-con {
+                width: 100%;
+                flex-direction: column;
+            }
+            iframe{
+                flex-direction: column;
+               
+            }
+            .container .right-con {
+                width: 100%;
+                flex-direction: column;
+            }
+            .container .right-con .ir{
+                width: 100%;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h2>CONTACT US</h2>
+            <div class="main">
+                <div class="add">
+                    <span>ADDRESS:</span>
+                    <p>saint marco street,6 <sup>th</sup> <br></b>floor,tokyo,japan,123456 </p>
+                </div>
+                <div class="mail">
+                    <p class="phon"><i class="fa-sharp fa-solid fa-square-phone"></i> +91 1234567890</p>
+                    <p class="gmail"><span> <i class="fa-sharp fa-solid fa-envelope"></i></span> example@gmail.com</p>
+                </div>
+                <div class="logo">
+                    <i class="fa-solid fa-location-dot icon"></i>
+                </div>
+            </div>
+        </header>
+        <!-- <footer> -->
+            <div class="content">
+                <div class="left-con">
+                    <div class="nam">
+                        <input type="text" placeholder="Name:">
+                        <input type="text" placeholder="company:">
+                    </div>
+                    <div class="email">
+                        <input type="text" placeholder="Email:">
+                        <input type="text" placeholder="Mobile:">
+                    </div>
+                    <div class="add">
+                        <textarea name="" id="i1" cols="51" rows="5" placeholder="Message:"></textarea>
+                    </div>
+                    <div class="btn">
+                        <a href="">Send</a>
+                    </div>
+                </div>
+                <div class="right-con">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.194605198549!2d73.18194417503308!3d22.308478742599508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf4bdaf0f89b%3A0xdd295e03d2b284b6!2sTops%20Technologies%20-%20Best%20Software%20%26%20Hardware%20Training%20Institute%20in%20Vadodara!5e0!3m2!1sen!2sin!4v1690652355056!5m2!1sen!2sin"
+                        width="400px" height="120px" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="ir">
+                        <i class="fa-brands fa-facebook-f icn"></i>
+                        <i class="fa-brands fa-twitter icn1"></i>
+                        <i class="fa-brands fa-linkedin-in icn2"></i>
+                        <i class="fa-brands fa-github-alt icn3"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
